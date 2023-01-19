@@ -32,7 +32,7 @@ function App() {
         <header className="App-header">
           <h1 className="App-title">Gallery of My Paris Snaps</h1>
         </header>
-        <img src="images/pomponOwl.jpg"/>
+        {/* <img src="images/pomponOwl.jpg"/> */}
         <GalleryList galleryArrayProp={galleryArray}/>
       </div>
     );

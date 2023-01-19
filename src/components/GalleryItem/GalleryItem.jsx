@@ -1,7 +1,9 @@
-function GalleryItem(){
+function GalleryItem(props){
     return(
         <>
-        <p>GalleryItem</p>
+        {/* <p>{JSON.stringify(props)}</p>    TEST */}
+        <img key={props.id} src={props.photo}></img>
+
         </>
     )
 }
