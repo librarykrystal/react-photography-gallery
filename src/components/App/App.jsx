@@ -1,8 +1,8 @@
 import React from 'react';
-import { useEffect, useState } from 'react';
+import {useEffect, useState} from 'react';
 import axios from 'axios';
 import './App.css';
-// import component(s)
+import GalleryList from '../GalleryList/GalleryList';
 
 function App() {
     const [galleryArray, setGalleryArray] = useState([]);
@@ -14,7 +14,7 @@ function App() {
       fetchGallery();
     }, [])
 
-    // retrieving gallery contents with axios GET
+    // retrieving gallery contents
     // router is pre-written to grab this data from gallery.data.js module
     const fetchGallery = () => {
       axios.get('/gallery')
@@ -30,10 +30,10 @@ function App() {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Gallery of My Snaps</h1>
+          <h1 className="App-title">Gallery of My Paris Snaps</h1>
         </header>
-        <p>Gallery goes here</p>
         <img src="images/pomponOwl.jpg"/>
+        <GalleryList galleryArrayProp={galleryArray}/>
       </div>
     );
 }
