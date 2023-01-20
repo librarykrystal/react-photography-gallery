@@ -38,6 +38,7 @@
   border: none;
   background-color:#999999;
   box-shadow: 0 1.5px black;
+  margin: 0;
 }
 
 .likeBtn:hover {
@@ -51,11 +52,16 @@
   color:white;
   border: none;
   background-color:#666666;
-  /* transform: scale(0.95); */
   transform: translateY(1.5px);
   box-shadow: 0 0px white;
 }
 
-.likesP {
+.likesCount {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+p {
   margin: 2px;
 }
