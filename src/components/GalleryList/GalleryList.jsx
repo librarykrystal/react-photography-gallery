@@ -7,7 +7,8 @@ function GalleryList({galleryArrayProp}){
 
         {galleryArrayProp.map(photo => (
             // <p>{photo.id}</p>     // TEST before consuming GalleryItem
-            <GalleryItem key={photo.id} photo={photo.path} caption={photo.description} likes={photo.likes}/>
+            // <GalleryItem key={photo.id} photo={photo.path} caption={photo.description} likes={photo.likes}/>
+            <GalleryItem key={photo.id} photo={photo}/>
         ))}
 
         </>

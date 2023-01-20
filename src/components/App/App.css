@@ -13,34 +13,47 @@
   font-size: 1.5em;
 }
 
-.photo {
+.itemContainer {
   border: 1px solid gray;
   box-shadow: 1px 1px 4px;
   display: inline-block;
   width: 220px;
-  height: 250px;
+  height: 264px;
   margin: 7px;
+}
+
+.content {
   padding-top: 10px;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7px;
 }
 
 .likeBtn {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color:white;
   border: none;
-  background-color:gray;
+  background-color:#999999;
+  box-shadow: 0 1.5px black;
 }
 
 .likeBtn:hover {
   color:white;
   border: none;
-  background-color:black;
+  background-color:#8c8c8c;
+  box-shadow: 0 1.5px black;
 }
 
 .likeBtn:active {
   color:white;
   border: none;
-  background-color:gray;
-  transform: scale(0.94);
+  background-color:#666666;
+  /* transform: scale(0.95); */
+  transform: translateY(1.5px);
+  box-shadow: 0 0px white;
 }
 
 .likesP {
