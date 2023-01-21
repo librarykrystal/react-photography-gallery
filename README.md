@@ -1,9 +1,10 @@
-# Project Name
+# Weekend React Gallery
 
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+[Project Instructions](./INSTRUCTIONS.md)
 
 ## Description
 
-Your project description goes here. What problem did you solve? How did you solve it?
+For this weekend assignment, I created a gallery page to share photos. Visitors can click to toggle between each image and its description as well as click a button to add a "like" to any image.  Current number of likes is displayed for each.
 
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+This app was created using Node, Express, React, and CSS styling.  React components handle looping through the data and the display of each gallery item, so more photos can be added with ease.
+
