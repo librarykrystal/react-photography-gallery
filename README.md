@@ -1,4 +1,4 @@
-# Weekend React Gallery
+# React Photography Gallery
 
 ## Description
 
